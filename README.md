@@ -1,5 +1,5 @@
 # bqwipe
-BQ Panda Brush Enhanced Nozzle Wipe Code - Cleaning Mod for Bambu Lab X1/P1 Series Printers  
+BQ Panda Brush Enhanced Nozzle Wipe Code - Cleaning Mod for Bambu Lab X1C/P1/P1S Series Printers  
 
 Watch the installation 🎥 https://go.jaeitee.xyz/vlog17 
   
@@ -21,7 +21,8 @@ Edit your Machine Configuration File
 Edit Machine start G-Code  
 ![Edit Machine start G-Code](assets/machine_edit_gcode.png)  
 
-Find around line 114:  
+**P1/P1S** Find around line 114  
+**X1C** Find around line 138  
 <pre>
 G1 X100 F5000; second wipe mouth  
 G1 X70 F15000  
@@ -68,7 +69,7 @@ G1 X92 F2500
 Edit Change filament G-Code  
 ![Edit Change filament G-Code](assets/filament_edit_gcode.png)  
 
-Find around line 156:  
+**X1C/P1/P1S** Find around line 156  
 Note: Check this part carefully that you're replacing the exact lines.
 
 <pre>G1 X70 F5000
