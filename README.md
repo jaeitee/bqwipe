@@ -61,7 +61,46 @@ G1 X92 F2500
 4. Edit Change filament G-Code  
 ![Edit Change filament G-Code](assets/filament_edit_gcode.png)  
 
-Find around line 114:  
+Find around line 156:  
+Note: Check this part carefully that you're replacing the exact lines.
 
+<pre>G1 X70 F5000
+G1 X90 F3000
+G1 Y255 F4000
+G1 X105 F5000
+G1 Y265 F5000
+G1 X70 F10000
+G1 X100 F5000
+G1 X70 F10000
+G1 X100 F5000</pre>
+Replace with:
+<pre>; ==== Jaeitee BQ Nozzle Wipe / START ====
+ ; First wipe (original position)
+G1 X70 F5000
+G1 X90 F3000
+G1 Y265 F4000
+G1 X100 F5000
+G1 Y265 F5000
+G1 X70 F10000
+G1 X100 F5000
+G1 X70 F10000
+G1 X100 F5000
+
+; Second wipe move forward
+G1 Y263 F2500          
+G1 X78 F2500
+G1 X92 F2500
+G1 X78 F2500
+G1 X92 F2500
+
+; Third wipe move move back 
+G1 Y265 F2500
+G1 X78 F2500
+G1 Y265 F2500
+G1 X92 F2500
+G1 X78 F2500
+G1 X92 F2500
+
+; === Jaeitee BQ Nozzle Wipe / END ===</pre>
 
   
