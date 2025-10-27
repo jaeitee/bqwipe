@@ -10,10 +10,11 @@ Proceed at your own discretion — I’m not responsible for any damage caused.
 ### Installation Instructions
 1. Open Bambu Studio   
 2. Edit your Machine Configuration File  
-![Edit Machine Config Button](assets/machine_edit.png)
+![Edit Machine Config Button](assets/machine_edit.png)  
+  
+3. Edit Machine start G-Code  
+![Edit Machine start G-Code](assets/machine_edit_gcode.png)  
 
-
-Machine Start G-Code  
 Find around line 114:  
 <pre>
 G1 X100 F5000; second wipe mouth  
@@ -25,7 +26,7 @@ G1 X70 F15000
 G1 X100 F5000  
 G1 X70 F15000  
 G1 X90 F5000  
-</pre>
+</pre>  
 Replace with:  
 <pre>
 ; ==== Jaeitee BQ Nozzle Wipe / START ====  
@@ -56,4 +57,6 @@ G1 X78 F2500
 G1 X92 F2500  
  ; ==== Jaeitee BQ Nozzle Wipe / END ====  
 </pre>
+
+
   
