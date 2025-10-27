@@ -1,5 +1,5 @@
 # bqwipe
-BQ Nozzle Brush Wipe Code - Enhanced Cleaning Mod for Bambu Lab X1/P1 Series Printers  
+BQ Panda Brush Enhanced Nozzle Wipe Code - Cleaning Mod for Bambu Lab X1/P1 Series Printers  
 
 Watch the installation 🎥 https://go.jaeitee.xyz/vlog17 
   
