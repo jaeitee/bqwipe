@@ -58,8 +58,8 @@ G1 X92 F2500
  ; ==== Jaeitee BQ Nozzle Wipe / END ====  
 </pre>  
 
-4. Edit Machine start G-Code  
-![Edit Machine start G-Code](assets/machine_edit_gcode.png)  
+4. Edit Change filament G-Code  
+![Edit Change filament G-Code](assets/filament_edit_gcode.png)  
 
 Find around line 114:  
 
