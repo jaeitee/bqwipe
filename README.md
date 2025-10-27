@@ -9,7 +9,8 @@ Proceed at your own discretion — I’m not responsible for any damage caused.
   
 ### Installation Instructions
 1. Open Bambu Studio   
-2. Edit your Machine Configuration File
+2. Edit your Machine Configuration File  
+![Edit Machine Config Button](assets/machine_edit.png)
 
 
 Machine Start G-Code  
