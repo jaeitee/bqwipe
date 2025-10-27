@@ -1,9 +1,11 @@
 # bqwipe
 BQ Nozzle Brush Wipe Code - Enhanced Cleaning Mod for Bambu Lab X1/P1 Series Printers  
+
+Watch the installation 🎥 https://go.jaeitee.xyz/bqwipe 
   
 This project improves the cleaning performance of the BQ Nozzle Brush by adding extra slow-speed wipes above the brush, increasing friction against the rubber for a more thorough clean. It also helps reduce purge chute clogs by introducing additional movement of the flushing lever.  
-  
-<span style="color:#00bfff">**==== WARNING ====**</span>  
+
+==== WARNING ====  
 Editing G-code on your Bambu Lab printer carries risk.  
 Proceed at your own discretion — I’m not responsible for any damage caused.  
 
@@ -107,5 +109,7 @@ G1 X78 F2500
 G1 X92 F2500
 
 ; === Jaeitee BQ Nozzle Wipe / END ===</pre>
+
+Press the save icon to save your edits, done.
 
   
