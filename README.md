@@ -37,7 +37,7 @@ G1 X90 F5000
 Replace with:  
 <pre>
 ; ==== Jaeitee BQ Nozzle Wipe / START ====  
- ; First wipe (original position)  
+; First wipe (original position)  
 G1 X70 F5000  
 G1 X90 F3000  
 G1 Y265 F4000  
@@ -62,7 +62,7 @@ G1 Y265 F2500
 G1 X92 F2500  
 G1 X78 F2500  
 G1 X92 F2500  
- ; ==== Jaeitee BQ Nozzle Wipe / END ====  
+; ==== Jaeitee BQ Nozzle Wipe / END ====  
 </pre>  
 
 ## Step 4
@@ -83,7 +83,7 @@ G1 X70 F10000
 G1 X100 F5000</pre>
 Replace with:
 <pre>; ==== Jaeitee BQ Nozzle Wipe / START ====
- ; First wipe (original position)
+; First wipe (original position)
 G1 X70 F5000
 G1 X90 F3000
 G1 Y265 F4000
